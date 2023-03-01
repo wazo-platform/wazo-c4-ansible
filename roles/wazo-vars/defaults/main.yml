@@ -93,9 +93,3 @@ wazo_consul_datacenter: wazo-platform
 # b2bua_port_http: 5039
 # b2bua_port_https: 5040
 # b2bua_port_sysconfd: 8668
-
-# ari_password: Nasheow8Eag
-# ari_username: xivo
-
-# ami_password: eeCho8ied3u
-# ami_username: wazo_amid
