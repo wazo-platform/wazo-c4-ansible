@@ -25,7 +25,7 @@
     run: zuul.d/docker-run.yaml
 
 - project:
-    check:
+    wazo-check:
       jobs:
         - wazo-ansible-c4-aio:
             nodeset: vm-debian-10-m1s
@@ -37,7 +37,7 @@
             nodeset: vm-debian-10-m1s
         - ansible-lint:
             nodeset: pod-debian-10
-    gate:
+    wazo-gate:
       jobs:
         - wazo-ansible-c4-aio:
             nodeset: vm-debian-10-m1s
